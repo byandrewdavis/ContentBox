@@ -13,7 +13,7 @@
   "dependencies": {
     "jquery": "latest",
     "bootstrap-sass": "latest",
-    "font-awesome-sass": "latest",
+    "font-awesome-sass": "~4.7.0",
     "html5shiv": "latest",
     "morris.js": "morrisjs#~0.5.1",
     "ckeditor": "~4.5.10",
