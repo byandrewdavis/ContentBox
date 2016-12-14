@@ -310,9 +310,9 @@ component accessors="true" singleton threadSafe{
 	* Prepare a ContentBox UI request. This sets ups settings, theme, etc. This method is usualy called
 	* automatically for you on the UI module. However, you can use it a-la-carte if you are building
 	* ajax or module extensions
-	* @layout An optional layout to set for you in the request. 
+	* @metaObj An optional metaObj to set for you in the request.
 	*/
-	CBHelper function prepareUIRequest( string layout ){
+	CBHelper function prepareUIRequest( string layout, object metaObj ){
 		var event 	= getRequestContext();
 		var prc 	= getRequestCollection( private=true );
 		var rc		= getRequestCollection();
